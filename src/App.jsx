@@ -9,8 +9,8 @@ import Navbar from './componets/navbar/Navbar';
 function App() {
   return (
     <>
-      <Navbar />
       <Header />
+      <Navbar />
       <About />
       <Portofolio />
       <Contact />
