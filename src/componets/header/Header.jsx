@@ -1,5 +1,7 @@
 import React from 'react';
 import './header.css';
+import CTA from './CTA'
+import ME from '../../assets/ME.png'
 
 function Header() {
   return (
@@ -8,6 +10,11 @@ function Header() {
         <h5>Hello, I am</h5>
         <h1>Tomás García</h1>
         <h5 className='text-light'>Fullstack Developer</h5>
+        <CTA />
+        <div className='me'>
+          <img src={ME}></img>
+        </div>
+        <a href='#content' className='scroll_down'>Scroll Dowm</a>
       </div>
     </header>
   )
