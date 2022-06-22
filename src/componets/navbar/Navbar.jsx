@@ -10,7 +10,7 @@ function Navbar() {
     <nav>
       <a href="#"><AiOutlineHome /></a>
       <a href="#about"><AiOutlineUser /></a>
-      <a href="#portfolio"><BiBook /></a>
+      <a href="#portofolio"><BiBook /></a>
       <a href="#contact"><BiMessageSquareDetail /></a>
     </nav>
   )
