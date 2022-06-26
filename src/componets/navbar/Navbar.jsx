@@ -13,7 +13,7 @@ function Navbar() {
     <nav>
       <a href="#" onClick={() => setActiveNav('#')} className={activeNav === '#' ? 'active' : '' }><AiOutlineHome /></a>
       <a href="#about" onClick={() => setActiveNav('#about')} className={activeNav === '#about' ? 'active' : '' }><AiOutlineUser /></a>
-      <a href="#portofolio" onClick={() => setActiveNav('#portofolio')} className={activeNav === '#portofolio' ? 'active' : '' }><BiBook /></a>
+      <a href="#portfolio" onClick={() => setActiveNav('#portoflio')} className={activeNav === '#portoflio' ? 'active' : '' }><BiBook /></a>
       <a href="#contact" onClick={() => setActiveNav('#contact')} className={activeNav === '#contact' ? 'active' : '' }><BiMessageSquareDetail /></a>
     </nav>
   )
